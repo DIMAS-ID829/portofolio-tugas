@@ -60,7 +60,7 @@ export default function Home() {
               HTML Developer & Designer crafting clean code, modern visuals, and meaningful user experiences. Join me down below and let's get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillXCircle />
+              <AiFillTwitterCircle />
               <AiFillLinkedin />
               <AiFillYoutube />
             </div>
