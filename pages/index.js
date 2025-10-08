@@ -1,6 +1,5 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
@@ -65,7 +64,7 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="Profile" />
             </div>
           </div>
         </section>
@@ -77,7 +76,7 @@ export default function Home() {
               developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
+              and collaborated with talented people to create digital products
               for both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -87,7 +86,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="Design illustration" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -102,7 +101,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="Code illustration" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
@@ -117,7 +116,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="Consulting illustration" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
@@ -139,7 +138,7 @@ export default function Home() {
               developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
+              and collaborated with talented people to create digital products
               for both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -155,6 +154,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt="Portfolio 1"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -164,6 +164,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt="Portfolio 2"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -173,6 +174,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt="Portfolio 3"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -182,6 +184,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt="Portfolio 4"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -191,6 +194,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                alt="Portfolio 5"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -200,6 +204,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web6}
+                alt="Portfolio 6"
               />
             </div>
           </div>
