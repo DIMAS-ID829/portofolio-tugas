@@ -58,8 +58,7 @@ export default function Home() {
               HTML Developer and Designer web
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-  HTML Developer &amp; Designer crafting clean code, modern visuals, and meaningful user experiences. join me down below and Let&apos;s get cracking.
-</p>
+  HTML Developer Designer crafting clean code, modern visuals, and meaningful user experiences.</p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle aria-label="Twitter" />
               <AiFillLinkedin aria-label="LinkedIn" />
@@ -79,7 +78,7 @@ export default function Home() {
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talented people to create digital products for both business and consumer use.</p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design, programming and teaching.</p>
+              I offer from a wide range of services including brand design programming and teaching.</p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
